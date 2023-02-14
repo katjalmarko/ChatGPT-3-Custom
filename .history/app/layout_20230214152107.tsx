@@ -3,14 +3,13 @@ import { SessionProvider } from "../components/SessionProvider";
 import { getServerSession } from "next-auth";
 import '../styles/globals.css';
 import { authOptions } from '../pages/api/auth/[...nextauth]';
-import Login from '../components/Login';
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
-  const session = await getServerSession(authOptions);
+  const session = await getServerSession(authOptions)
 
   return (
     <html>
@@ -19,7 +18,7 @@ export default async function RootLayout({
         <SessionProvider session={session}>
           {!session ? (
             <Login />
-          ) : (
+          )}
         <div className='flex'>
           <div className='bg-[#202123] max-w-xs h-screen overflow-y-auto md:min-w-[20rem]'>
 
@@ -33,7 +32,6 @@ export default async function RootLayout({
               {children}
           </div>
         </div>
-        )}
         </SessionProvider>
       </body>
     </html>
