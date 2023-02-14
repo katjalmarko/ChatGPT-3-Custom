@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* That´s a way to activate tailwind */
 @layer components {
   .infoText {
     @apply p-4 bg-gray-700/50 rounded-lg max-w-[300px]
   }
-}
 
-/* That´s a way to activate tailwind */
+  .chatRow {
+    @apply rounded-lg px-5 py-3 text-sm flex items-center justify-center space-x-2 hover:bg-gray-700/70 cursor-pointer text-gray-300 transition-all duration-200 ease-out }
+}
