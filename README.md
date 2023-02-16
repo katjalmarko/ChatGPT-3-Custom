@@ -13,22 +13,8 @@
   <li>useSWR</li>
   <li>React Firebase Hooks</li>
   <li>React Hot Toast Notifications</li>
+  <li>And much more...</li>
 </ul>
-<h2>Installation</h2>
-<p>To run this project on your local machine, follow the instructions below:</p>
-<ol>
-  <li>Clone the repository.</li>
-  <pre><code>git clone https://github.com/your-username/chatgpt-3-custom.git
-cd chatgpt-3-custom</code></pre>
-  <li>Install dependencies.</li>
-  <pre><code>npm install</code></pre>
-  <li>Set up the environment variables.</li>
-  <pre><code>cp .env.example .env</code></pre>
-  <p>Update the environment variables with your own values.</p>
-  <li>Start the development server.</li>
-  <pre><code>npm run dev</code></pre>
-  <p>Open http://localhost:3000 in your web browser to see the app.</p>
-</ol>
 <h2>Project Structure</h2>
 <p>The project structure is based on the Next.js framework, which allows for server-side rendering and other performance optimizations.</p>
 <ul>
@@ -47,12 +33,6 @@ cd chatgpt-3-custom</code></pre>
   <li>Users can navigate through their chat history using dynamic paging.</li>
   <li>Users can see toast notifications using React Hot Toast when they send or delete a message.</li>
 </ul>
-<h2>Contributing</h2>
-<p>Contributions to this project are welcome. To contribute, follow these steps:</p>
-<ol>
-  <li>Fork the project.</li>
-  <li>Create a new branch for your feature.</li>
-  <li>Make your changes and commit them.</li>
-  <li>Push your changes to your fork.</li>
-  <li>Create a pull request.</li>
-</ol>
+<h2>Acknowledgments</h2>
+<p>OpenAI for the inspiration behind this project</p>
+
