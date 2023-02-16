@@ -22,20 +22,20 @@
 
   The project structure is based on the Next.js framework, which allows for server-side rendering and other performance optimizations.
   
-  pages      - Contains all the pages for the app.
-  components - Contains all the React components for the app.
-  lib        - Contains all the utility functions and hooks for the app.
-  public     - Contains all the static assets for the app.
+  - pages      - Contains all the pages for the app.
+  - components - Contains all the React components for the app.
+  - lib        - Contains all the utility functions and hooks for the app.
+  - public     - Contains all the static assets for the app.
 
 
 # Features
    The ChatGPT-3-Custom app includes the following features:
-    Users can sign in using Google Authentication through [NextAuth](https://next-auth.js.org/)
-    Users can chat with a custom chatbot that uses OpenAI's GPT-3 to generate responses.
-    Chat history is stored in Firebase Firestore.
-    Users can view their chat history and delete individual messages.
-    Users can navigate through their chat history using dynamic paging.
-    Users can see toast notifications using React Hot Toast when they send or delete a message.
+   - Users can sign in using Google Authentication through [NextAuth](https://next-auth.js.org/)
+   - Users can chat with a custom chatbot that uses OpenAI's GPT-3 to generate responses.
+   - Chat history is stored in Firebase Firestore.
+   - Users can view their chat history and delete individual messages.
+   - Users can navigate through their chat history using dynamic paging.
+   - Users can see toast notifications using React Hot Toast when they send or delete a message.
 
 # Acknowledgments
-  OpenAI for the inspiration behind this project
+   - OpenAI for the inspiration behind this project
