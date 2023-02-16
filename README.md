@@ -26,7 +26,7 @@
 <h2>Features</h2>
 <p>The ChatGPT-3-Custom app includes the following features:</p>
 <ul>
-  <li>Users can sign in using Google Authentication through [NextAuth](https://next-auth.js.org/)</li>
+  <li>Users can sign in using Google Authentication through</li> [NextAuth](https://next-auth.js.org/)
   <li>Users can chat with a custom chatbot that uses OpenAI's GPT-3 to generate responses.</li>
   <li>Chat history is stored in Firebase Firestore.</li>
   <li>Users can view their chat history and delete individual messages.</li>
