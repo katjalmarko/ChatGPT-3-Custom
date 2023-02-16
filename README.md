@@ -1,8 +1,8 @@
 <h1>ChatGPT-3-Custom</h1>
 <p>ChatGPT-3-Custom is a project that uses OpenAI's GPT-3 to generate custom chatbot responses. This project uses the following technologies:</p>
-<ul>
-  <li>React.js</li>
-  <li>Next.js 13</li>
+
+  - React.js
+  - Next.js 13
   <li>Typescript</li>
   <li>Firebase Firestore</li>
   <li>Firebase Admin SDK</li>
@@ -25,14 +25,12 @@
 </ul>
 <h2>Features</h2>
 <p>The ChatGPT-3-Custom app includes the following features:</p>
-<ul>
-  <li>Users can sign in using Google Authentication through</li> [NextAuth](https://next-auth.js.org/)
-  <li>Users can chat with a custom chatbot that uses OpenAI's GPT-3 to generate responses.</li>
-  <li>Chat history is stored in Firebase Firestore.</li>
-  <li>Users can view their chat history and delete individual messages.</li>
-  <li>Users can navigate through their chat history using dynamic paging.</li>
-  <li>Users can see toast notifications using React Hot Toast when they send or delete a message.</li>
-</ul>
+    Users can sign in using Google Authentication through [NextAuth](https://next-auth.js.org/)
+    Users can chat with a custom chatbot that uses OpenAI's GPT-3 to generate responses.
+    Chat history is stored in Firebase Firestore.
+    Users can view their chat history and delete individual messages.
+    Users can navigate through their chat history using dynamic paging.
+    Users can see toast notifications using React Hot Toast when they send or delete a message.
 <h2>Acknowledgments</h2>
 <p>OpenAI for the inspiration behind this project</p>
 
