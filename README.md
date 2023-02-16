@@ -26,7 +26,7 @@
    - Users can view their chat history and delete individual messages.
    - Users can navigate through their chat history using dynamic paging.
    - Users can see toast notifications using [React Hot Toast](https://react-hot-toast.com/docs) when they send or delete a message.
-   - Users can switch language models of the chatbot system, which is not possible on the original version.
+   - Users can also switch language models of the chatbot system*.
 
 # Acknowledgments
 
