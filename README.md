@@ -1,5 +1,7 @@
  # ChatGPT-3-Custom
-  
+
+https://user-images.githubusercontent.com/119958748/219686590-8c0309e7-c239-46d5-83c2-5855b157ae0c.mp4
+
    ChatGPT-3-Custom is a project that uses [OpenAI's GPT-3](https://chat.openai.com/chat) to generate custom chatbot responses. 
    This project uses the following technologies:
 
