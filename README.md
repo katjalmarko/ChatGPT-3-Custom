@@ -1,27 +1,35 @@
-# Next.js + Tailwind CSS Example
+ # ChatGPT-3-Custom
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+https://user-images.githubusercontent.com/119958748/219686590-8c0309e7-c239-46d5-83c2-5855b157ae0c.mp4
 
-## Deploy your own
+   ChatGPT-3-Custom is a project that uses [OpenAI's GPT-3](https://chat.openai.com/chat) to generate custom chatbot responses. 
+   This project uses the following technologies:
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+  - React.js
+  - Next.js 13
+  - Typescript
+  - Firebase Firestore
+  - Firebase Admin SDK
+  - OpenAI API
+  - NextAuth with Google Authentication
+  - React Select Library
+  - Dynamic Paging
+  - useSWR
+  - React Firebase Hooks
+  - React Hot Toast Notifications
+  - And much more...
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+# Features
 
-## How to use
+   The ChatGPT-3-Custom app includes the following features:
+   - Users can sign in using Google Authentication through [NextAuth](https://next-auth.js.org/)
+   - Users can chat with a custom chatbot that uses [OpenAI's GPT-3](https://chat.openai.com/chat) to generate responses.
+   - Chat history is stored in [Firebase Firestore](https://firebase.google.com/docs/firestore/).
+   - Users can view their chat history and delete individual messages.
+   - Users can navigate through their chat history using dynamic paging.
+   - Users can see toast notifications using [React Hot Toast](https://react-hot-toast.com/docs) when they send or delete a message.
+   - Users can also switch language models of the chatbot system*.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+# Acknowledgments
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+   - [OpenAI](https://openai.com/) for the inspiration behind this project
